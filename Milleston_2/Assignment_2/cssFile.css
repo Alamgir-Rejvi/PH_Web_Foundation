@@ -98,6 +98,11 @@ ul li a:hover{
     background-color: orangered;
 }
 
+.image_card button:hover{
+    background-color: aliceblue;
+    color: green;
+}
+
 
 
 /* lover */
@@ -466,7 +471,7 @@ ul li a:hover{
     }
 
 
-    
+
     /* Footer Section */
     .footer {
         flex-direction: column;
