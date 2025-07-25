@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F8FF;
+    /* margin: 0 40px 0; */
+}
+
+/* logo part */
+header {
+    width: 100%;
+    height: 400px;
+    background-image: url(../image/Hero-bg.png);
+}
+
+#logo {
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#logo:hover{
+    background-color: aliceblue;
+    color: brown;
+}
+
+.hbtn {
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.hbtn:hover{
+    background-color: aliceblue;
+    color: brown;
+}
+
+
+.bannar-heading{
+    margin: 100px 80px 5px;
+    padding: 0px 200px;
+    text-align: center;
+}
+
+p.bannar-btn {
+    padding:5px 200px;
+    margin: 20px ;
+    text-align: center;
+}
+
+p.bannar-btn a {
+    text-decoration: none;
+}
+
+
+p.bannar-btn a:hover{
+    background-color: rgb(40, 146, 238);
+    color: brown;
+}
+
+
+/* action part */
+#action-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 40px;
+    
+}
+
+#action_1 {
+    text-align: left;
+    
+}
+
+#action_1 a {
+    text-decoration: none;
+}
+
+#action_2 img{
+    border-radius: 40px;
+}
+
+
+/* user part */
+
+#user-main{
+    text-align: center;
+    margin: 50px 0px;
+    padding: 50px 0px;
+}
+#user-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.user-items {
+    margin: 0px 30px;
+    padding: 5px 20px;
+}
+
+/* user's say */
+
+.users-say {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px 30px 18px 18px;
+}
+.say-pic-container {
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+
+
+}
+
+.say-pic{
+    
+} 
+
+.say-para{
+    margin-left: 10px;
+}
+
+/* touch */
+#touch-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 60px 40px;
+
+}
+
+
+/* footer */
+footer{
+    height: 200px;
+}
+#flogo {
+    text-align: center;
+    color: #3829e4;
+    font-size: 80px;
+    margin-bottom: 20px;
+
+}
+
+#fpara{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.a {
+    text-decoration: none;
+    margin: 15px 20px 10px;
+    color: #000;
+}
+
+.a:hover{
+    background-color: aquamarine;
+    color: #3829e4;
+}
+
