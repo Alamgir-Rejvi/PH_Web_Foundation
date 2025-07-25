@@ -370,3 +370,116 @@ ul li a:hover{
     color: #c43c23;
 }
 /* end */
+
+
+/* ================================
+   Mobile Responsive Styling
+   ================================ */
+   @media (max-width: 768px) {
+
+    /* Navbar */
+    #nav_items li:not(:last-child) {
+        display: none;
+    }
+    .nav_container {
+        margin: 10px 20px;
+    }
+    #nav_items {
+        justify-content: flex-end;
+    }
+
+
+    /* Banner Section */
+    .flower_container {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        margin: 20px;
+    }
+    .fitem1 {
+        width: 100%;
+        text-align: left;
+    }
+    .fitem1 img {
+        width: 90%;
+        height: auto;
+    }
+
+
+
+    /* Plants Section */
+    .img_container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: 20px;
+    }
+
+    .image_card img {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    /* Lover Section */
+    .lover_grid_container {
+        grid-template-columns: 1fr;
+        margin: 40px 20px;
+        text-align: left;
+    }
+    #seller_logo {
+        position: static;
+        display: block;
+        margin: 0 auto 20px;
+    }
+    .lover_grid_container > div img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* Latest Deal Section */
+    .deal_grid_container {
+        display: block;
+        margin: 20px;
+    }
+    .deal_grid_container > div {
+        margin-bottom: 20px;
+    }
+    .deal_grid_container img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* Join Section */
+    .subscription_form {
+        flex-direction: column;
+    }
+    .subscription_form input[type="email"],
+    .subscription_form button {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .subscription_form button {
+        margin-top: 10px;
+    }
+
+
+    
+    /* Footer Section */
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    .footer .footer_links {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer .social_icons {
+        justify-content: center;
+    }
+}
