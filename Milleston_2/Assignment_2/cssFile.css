@@ -49,7 +49,7 @@ ul li a:hover{
     font-weight: bold;
 }
 
-#fresh_text{
+.fresh_text{
     color: tomato;
     font-size: x-large;
     font-weight: bold;
@@ -58,6 +58,35 @@ ul li a:hover{
 .fitem1{
     align-items: end;
 }
-#indulge_text{
+
+/* #indulge_text{
     
+} */
+
+
+/*our Plants */
+
+.plants_container{
+    /* margin-top: 40px; */
+    margin: 30px 20px 20px 30px;
+}
+
+
+.Plants_heading{
+    text-align: center;
+}
+
+.img_container{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+    
+}
+
+.image_card{
+    text-align: center;
+    margin-right: 12px;
+}
+.img_description{
+    font-size: 10px;
 }
