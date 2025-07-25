@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin: 0px 25px ; */
+    
     margin: 10px 40px;
 }
 
@@ -13,11 +13,6 @@
     justify-content: center;
     
 }
-
-/* nav > nav > #logo:hover {
-    color: red;
-} */
-
 
 ul li {
     list-style-type: none;
@@ -33,6 +28,8 @@ ul li a {
 ul li a:hover{
     color: red;
 }
+
+
 
 /* fresh flower */
 .flower_container{
@@ -59,10 +56,6 @@ ul li a:hover{
     align-items: end;
 }
 
-/* #indulge_text{
-    
-} */
-
 
 /*our Plants */
 
@@ -70,7 +63,6 @@ ul li a:hover{
     /* margin-top: 40px; */
     margin: 30px 40px 30px;
 }
-
 
 .Plants_heading{
     text-align: center;
@@ -84,19 +76,15 @@ ul li a:hover{
     justify-content:center;
     align-items: center;
     margin: 30px 0px;
-    
 }
 
 .image_card{
     width: 100%;
-    /* border: 1px solid; */
     text-align: center;
     margin: 2px 4px;
-    /* margin-right: 5px; */
 }
 
 .image_card p{
-    
     font-weight: bolder;
 }
 
@@ -104,10 +92,13 @@ ul li a:hover{
     font-weight: 100;
     margin-bottom: 12px;
 }
+
 .image_card button {
     width: 98%;
     background-color: orangered;
 }
+
+
 
 /* lover */
 
@@ -122,11 +113,12 @@ ul li a:hover{
     justify-content: space-between; */
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    
 }
+
 .lover_grid_container ul {
     list-style-type: circle;
 }
+
 
 
 /* deals */
@@ -143,6 +135,7 @@ ul li a:hover{
    /* margin: 4px;
    padding: 4px; */
 }
+
 #d_item2 {
     position: relative;
     grid-column: 2 / span 4;
@@ -243,17 +236,9 @@ ul li a:hover{
     background-color: #c43c23;
 }
 
+
+
 /* search part */
-/* #search_img{
-    position: relative;
-}
-
-#search_img .search_text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-} */
-
 
 .subscription_section {
     position: relative;
@@ -264,6 +249,7 @@ ul li a:hover{
     justify-content: center;
     text-align: center;
     color: white;
+    margin: -8px;
 }
 
 .subscription_overlay {
@@ -383,3 +369,4 @@ ul li a:hover{
 .footer .social_icons a img:hover{
     color: #c43c23;
 }
+/* end */
