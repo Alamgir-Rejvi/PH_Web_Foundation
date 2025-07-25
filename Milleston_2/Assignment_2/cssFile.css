@@ -68,7 +68,7 @@ ul li a:hover{
 
 .plants_container{
     /* margin-top: 40px; */
-    margin: 30px 20px 20px 30px;
+    margin: 30px 40px 30px;
 }
 
 
@@ -77,16 +77,34 @@ ul li a:hover{
 }
 
 .img_container{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* grid-template-columns: repeat(4, 1fr); */
+    /* display: flex; */
     justify-content:center;
-    margin-bottom: 20px;
+    align-items: center;
+    margin: 30px 0px;
     
 }
 
 .image_card{
+    width: 100%;
+    /* border: 1px solid; */
     text-align: center;
-    margin-right: 12px;
+    margin: 2px 4px;
+    /* margin-right: 5px; */
 }
-.img_description{
-    font-size: 10px;
+
+.image_card p{
+    
+    font-weight: bolder;
+}
+
+.usd{
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+.image_card button {
+    width: 98%;
+    background-color: orangered;
 }

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .grid_container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            /* grid-template-columns: repeat(auto-fit,minmax(160px,1fr)); */
+            gap:5px;
+            justify-items: center;
+        }
+        .image_card {
+            /* border: 1px solid #ccc; */
+            padding: 10px;
+            width: 200px;
+        }
+
+        .image_card img {
+            max-width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        .image_card h3 {
+            text-align: center;
+            margin: 10px 0 5px;
+        }
+
+        .image_card p {
+            font-weight: bold;
+            margin: 0 0 10px;
+            text-align: center;
+        }
+
+        .image_card button{
+            text-align: center;
+            background-color: orange;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .image_card button:hover{
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="grid_container">
+
+        <div class="image_card">
+            <img width="150px" height="220px" src="image/sample-flower-image.png" alt="flower">
+            <h3>Lily Blossom</h3>
+            <p>20 USD</p>
+            <button>ADD TO CART</button>
+        </div>
+
+        <div class="image_card">
+            <img width="150px" height="220px" src="image/sample-flower-image.png" alt="flower">
+            <h3>Lily Blossom</h3>
+            <p>20 USD</p>
+            <button>ADD TO CART</button>
+        </div>
+
+        <div class="image_card">
+            <img width="150px" height="220px" src="image/sample-flower-image.png" alt="flower">
+            <h3>Lily Blossom</h3>
+            <p>20 USD</p>
+            <button>ADD TO CART</button>
+        </div>
+
+        <div class="image_card">
+            <img width="150px" height="220px" src="image/sample-flower-image.png" alt="flower">
+            <h3>Lily Blossom</h3>
+            <p>20 USD</p>
+            <button>ADD TO CART</button>
+        </div>
+        
+    </div>
+</body>
+</html>
