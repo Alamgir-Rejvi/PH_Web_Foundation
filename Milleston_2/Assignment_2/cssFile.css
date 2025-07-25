@@ -1,0 +1,63 @@
+/* navbar */
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0px 25px ; */
+    margin: 10px 40px;
+}
+
+#nav_items{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* nav > nav > #logo:hover {
+    color: red;
+} */
+
+
+ul li {
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: red;
+}
+
+/* fresh flower */
+.flower_container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 20px 40px;
+    /* display: grid;
+    grid-template: 2fr 2fr; */
+}
+
+#always_text{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#fresh_text{
+    color: tomato;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.fitem1{
+    align-items: end;
+}
+#indulge_text{
+    
+}
