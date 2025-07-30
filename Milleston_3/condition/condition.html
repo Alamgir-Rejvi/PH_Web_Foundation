@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       // complex condition
+
+       let salary = 20000;
+       isBcs = true;
+       height = 5.2;
+
+        // salary 25k er beshy and hight 5.4 er beshy othoba shodo Bcs hole hobe
+
+       if ((salary > 25000 && height > 5.4 ) || isBcs == true) {
+            document.write("You can marry");
+       }
+       else {
+        document.write("Gain ability");
+       }
+    </script>
+
+
+    <script>
+
+        // salary 25k er beshy othoba hight 5.4 er beshy and shodo Bcs hole hobe
+       if ((salary > 25000 || height > 5.4 ) && isBcs == true) {
+            document.write("You can marry");
+       }
+       else {
+        document.write("Gain ability");
+       }
+    </script>
+
+
+
+    <script>
+        // multi-level condition
+        let price = 5000;
+        
+        if (price >= 5000){
+            // 10% discount
+            const discount = price * 10/100;
+            const payAmount = price - discount;
+            document.write(payAmount);
+        }
+        else if (price >= 4000) {
+            // 5% discount
+            const discount = price * 5/100;
+            const payAmount = price - discount;
+            document.write(payAmount);
+        }
+        else {
+            // no discount
+            document.write(price);
+        }
+
+    </script>
+    
+</body>
+</html>

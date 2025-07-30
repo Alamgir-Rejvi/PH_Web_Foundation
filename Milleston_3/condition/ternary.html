@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // normal condition
+        const age = 10;
+        if (age >=18) {
+            document.write("you can vote");
+        }else {
+            document.write("not eligible")
+        }
+        document.write("<br>");
+
+
+        // tarnary condition
+        age >= 18 ? document.write("Vote") : document.write("No vote");
+        document.write("<br>");
+    </script>
+
+    <script>
+
+        // if-else condition
+        let price = 500;
+        const isStudent = false;
+
+        if (isStudent === true) {
+            price = 0;
+        }
+        else {
+            price = price + 100;
+        }
+        document.write(price);
+        document.write("<br>");
+
+
+
+        let cost = 500;
+        const isLeader = true;
+        cost = isLeader === true ? document.write(0) : document.write(cost + 100);
+        document.write("<br>");
+    </script>
+
+    <script>
+        let taka = 5000;
+        let isVai = true;
+        if (isVai === true) {
+            if (taka > 1000) {
+                taka = taka/2;
+            }else {
+                taka = 0;
+            }
+        } 
+        else {
+            taka = taka + 100;
+        }
+        document.write(taka);
+        document.write("<br>");
+
+        taka = isVai === true ? document.write(taka > 1000 ? taka/2 : 0) : document.write(taka + 100);
+    </script>
+</body>
+</html>
