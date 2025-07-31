@@ -17,7 +17,7 @@
         document.write("<br>");
 
 
-        // tarnary condition
+        // simple tarnary condition
         age >= 18 ? document.write("Vote") : document.write("No vote");
         document.write("<br>");
     </script>
@@ -25,14 +25,17 @@
     <script>
 
         // if-else condition
+
         let price = 500;
-        const isStudent = false;
+        const isStudent = true;
 
         if (isStudent === true) {
-            price = 0;
+            price = 0
+            // document.write(price = 0);
         }
         else {
             price = price + 100;
+            // document.write(price + 100);
         }
         document.write(price);
         document.write("<br>");
@@ -40,14 +43,16 @@
 
 
         let cost = 500;
-        const isLeader = true;
-        cost = isLeader === true ? document.write(0) : document.write(cost + 100);
+        const isLeader = false;
+        cost = isLeader === true ? document.write(cost = 0) : document.write(cost + 100);
         document.write("<br>");
     </script>
 
+
+
     <script>
-        let taka = 5000;
-        let isVai = true;
+        let taka = 900;
+        let isVai = false;
         if (isVai === true) {
             if (taka > 1000) {
                 taka = taka/2;
@@ -61,7 +66,24 @@
         document.write(taka);
         document.write("<br>");
 
-        taka = isVai === true ? document.write(taka > 1000 ? taka/2 : 0) : document.write(taka + 100);
+
+
+        // nested tarnary :
+        let takaa = 5000;
+        let isVaii = true;
+        // taka = isVai === true ? document.write(taka > 1000 ? taka/2 : 0) : document.write(taka + 100); this is in single line tarnary.
+
+        taka = isVaii === true ?
+            document.write(takaa > 1000 ?
+                taka/2 : 0) 
+        : document.write(takaa + 100);
+        document.write("<br>");
+
+
+
+        let isRaining = true;
+        let activity = isRaining ? "Stay indoors" : "Go outside";
+        document.write(activity); // Output: Stay indoors , tarnary can be stored in variable.
     </script>
 </body>
 </html>

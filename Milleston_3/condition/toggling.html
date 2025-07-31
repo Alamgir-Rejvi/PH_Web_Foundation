@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="password" id="passwordField">
+    <button onclick="togglePassword()">Show/Hide</button>
+
+    <script>
+        let isVisible = false;
+
+        function togglePassword() {
+            isVisible = !isVisible;
+
+            const field = document.getElementById("passwordField");
+            field.type = isVisible ? "text" : "password";
+        }
+    </script>
+
+
+
+    <!-- another toggle example -->
+    <h1>Toggling</h1>
+    <button onclick="toggleMode()">Toggle Dark Mode</button>
+
+    <script>
+        let isDark = false;
+
+        function toggleMode() {
+            isDark = !isDark;
+
+            if (isDark) {
+                document.body.style.backgroundColor = "black";
+                document.body.style.color = "white";
+            } else {
+                document.body.style.backgroundColor = "white";
+                document.body.style.color = "black";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

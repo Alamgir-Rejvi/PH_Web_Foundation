@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let isLeader = true;
+        
+        // if (isLeader === true) { "true hole comparison likha lage na"
+
+        if(isLeader) {
+            document.write("You can entry");
+        }
+        else {
+            document.write("Get out");
+        }
+    </script>
+
+
+<script>
+    document.write("<br>")
+    let isPassed = false;
+    
+    // if (isLeader === false) { "false hole true(isPassed) ke logical Not(!) likle hoy"
+    
+    if(!isPassed) {
+        document.write("You can not get promotion");
+    }
+    else {
+        document.write("You can get promotion");
+    }
+
+
+    // some example
+
+    !true;   // output : false;
+    !false;  // output : true;
+    !"";     // output : true;
+    !"cat";  // output : false;
+
+    document.write("<br>")
+    // more practice on logical Not operator
+
+    let islogged = false;
+    if (!islogged) {
+        document.write("User is not logged In")
+    }
+
+    document.write("<br>")
+    let isEnabled = true;
+    isEnabled = !isEnabled; // toggling the boolean value
+
+    document.write(isEnabled); // output : false;
+</script>
+
+</body>
+</html>
