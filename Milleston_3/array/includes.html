@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Includes</h3>
+    <script>
+        const names = ["Rasel", "Mohammad", "Alamgir", "Rejvi", "Nishad", "Fahim"];
+        console.log(names.includes("Nishad")); // output : true ;
+        console.log(names.includes("Rafi")); // output : false ;
+
+        console.log(names.includes("Mohammad", "Alamgir"));// more than one
+        // element of an array is case-sensitive;
+
+
+        
+        // we can use includes in a conditional 
+        if (names.includes("Rejvi")) {
+            console.log("Moshaidul sir is so kind")
+        }else{
+            console.log("Moshaidul sir is on fire")
+        }
+    </script>
+</body>
+</html>

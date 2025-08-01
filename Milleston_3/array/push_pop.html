@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const numbers = [23, 43,53, 52,56];
+        console.log(numbers);
+
+        numbers.push(36);
+        console.log(numbers);
+
+        numbers.push(89, 332,89);
+        console.log(numbers);
+    </script>
+
+    <script>
+        const names = ["Mohammad", "Alamgir", "Rejvi", "Nishad", "Fahim"];
+        let deletedElement1 = names.pop(); // we can store pop element in a variable;
+        let deletedElement2 = names.pop();
+        console.log(names); // output : ['Mohammad', 'Alamgir', 'Rejvi'];
+
+        
+        console.log(deletedElement1, deletedElement2); // output : Fahim;
+    </script>
+</body>
+</html>
