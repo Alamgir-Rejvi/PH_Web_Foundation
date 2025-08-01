@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h3>Odd number</h3>
+    <script>
+        document.write ("Using condition : ");
+        let num = 1;
+        while (num <= 20) {
+            if (num % 2 != 0) {
+                document.write(num + ", ")
+            }
+            num++;
+        }
+
+
+        document.write("<br>");
+        document.write ("Using increment : ");
+        let numbers = 1;
+        while (numbers <= 20) {
+            document.write(numbers + ", ");
+            numbers += 2;
+        }
+
+
+        // sum
+        document.write("<br>");
+        let n = 1;
+        let sum = 0;
+        
+        while (n <= 20) {
+            sum = sum + n;
+            n += 2;
+        }
+        document.write("The sum of odd numbers (1-20) is : " + sum);
+        
+    </script>
+
+</body>
+</html>

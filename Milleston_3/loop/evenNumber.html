@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Even Number</h3>
+    <script>
+        document.write ("Using condition : ");
+        let number = 1;
+        while (number <= 20) {
+            
+            if (number % 2 === 0) {
+                document.write(number + ", ");
+            }
+            number++;
+        }
+        document.write("<br>");
+        
+
+        // changing increment
+        document.write ("Using increment : ");
+        let Num = 2;
+        while(Num <= 20) {
+            document.write(Num + ", ");
+            // Num = Num + 2;
+            Num += 2;
+        }
+
+
+        // sum 
+        document.write("<br>");
+        let N = 2;
+        let Sum = 0;
+        while (N <= 20) {
+            Sum += N;
+            N += 2;
+        }
+        document.write("The sum of Even numbers (1-20) is : " + Sum);
+    </script>
+
+</body>
+</html>
