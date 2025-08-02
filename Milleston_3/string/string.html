@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>string </h3>
+    <!-- string is immutable (not changable); array is mutable -->
+    <script>
+        let a = "Bangladesh"; // string can receive "" , '' , ``;
+        b = 'Cumilla';
+        c = `Sader, Kotobpur`;
+        d = new String("world");
+
+        console.log(typeof a); // output : string
+        console.log(typeof b); // output : string
+        console.log(typeof c); // output : string
+        console.log(typeof d); // output : object;
+        console.log(d); // output : string "world"
+
+
+        const capital = "Dhaka"; 
+        console.log(capital.length); // output : 5
+        console.log(capital[3]); // output : k
+    </script>
+
+    <!-- use of tolowercase and touppercase -->
+     <script>
+        let text = "Programme is Interesting";
+        console.log(text);
+        console.log(text.toLowerCase());
+        console.log(text.toUpperCase());
+
+
+
+        // practical use of case()
+        let userInput = "Alamgir@gmail.com";
+        let savedEmail = "alamgir@gmail.com";
+
+        if (userInput.toLowerCase() === savedEmail.toLowerCase()) {
+            console.log("Email is Logged In successfully");
+        }else {
+            console.log("Email is not correct");
+        }
+
+
+        // another practical use of cade
+        const product = ["Laptop", "Keyboard", "Mouse", "Monitor"];
+        const searchTerm = "lApToP";
+
+        let result = product.filter (
+            item => item.toLowerCase().includes(searchTerm.toLowerCase())
+        )
+        console.log(result) // ['Laptop']
+
+        // 🔹 filter() একটি অ্যারের প্রতিটি আইটেমের উপর কাজ করে এবং যেসব আইটেমে শর্ত (condition) সত্য (true) হয়, সেগুলো নতুন একটি অ্যারে তে রিটার্ন করে।
+
+
+
+        //  Standardize User Input (e.g., Form Submission)
+        // let name = prompt("Enter your name:");
+        // name = name.trim().toLowerCase();
+        // console.log("Welcome, " + name.charAt(0).toUpperCase() + name.slice(1));
+
+     </script>
+
+     <script>
+        // slice
+        const country = "Bangladesh";
+        const show = country.slice(3,7);
+        console.log(show);
+
+
+        // split
+        const para = "I am Mohammad Alamgir Rejvi";
+        console.log(para.split(' ')); // ['I', 'am', 'Mohammad', 'Alamgir', 'Rejvi']
+        
+
+        const friends ='Mohammad, Alamgir, Rejvi';
+        console.log(friends.split(',')); // ['Mohammad', ' Alamgir', ' Rejvi']
+
+        // join 
+        const people = ['Mohammad', 'Alamgir', 'Rejvi'];
+        console.log(people.join('|'));
+
+
+        // concat
+        const first = "Alamgir";
+        const last = "Rejvi";
+        const full = first.concat(last);
+        const fullName = first.concat(" ").concat(last);
+        console.log(full); // AlamgirRejvi
+        console.log(fullName) // Alamgir Rejvi
+
+        // includes
+        const see = "Alamgir";
+        console.log(see.includes('i')); // true
+        console.log(see.includes('k')); // false
+     </script>
+</body>
+</html>

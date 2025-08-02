@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <h3>✅ 1.Remove Elements from Array</h3>
+    <script>
+        const fruits = ["Apple", "Banana", "Cherry", "Date", "Elderberry"];
+        const removed = fruits.splice(1, 2);  // remove 2 items from index 1
+        document.write(removed);     // Output: ["Banana", "Cherry"]
+        document.write(fruits);      // Output: ["Apple", "Date", "Elderberry"]
+    </script>
+    <br><br>
+
+
+    <h3>✅ 2. Add Elements to Array (without removing)</h3>
+    <script>
+        const color = ["Red", "Blue"];
+        color.splice(1, 0, "Green", "Yellow");  // insert at index 1
+        document.write(color);  // Output: ["Red", "Green", "Yellow", "Blue"]
+    </script>
+    <br><br>
+
+
+
+    <h3>✅ 3. Replace Elements in Array</h3>
+    <script>
+        const colors = ["Red", "Blue"];
+        colors.splice(1, 0, "Green", "Yellow");  // insert at index 1
+        document.write(colors);  // Output: ["Red", "Green", "Yellow", "Blue"]
+    </script>
+    <br><br>
+
+
+
+
+    <h3>✅ 4. Remove All Elements from Specific Index</h3>
+    <script>
+        const letters = ["a", "b", "c", "d", "e"];
+        letters.splice(2);  // remove all from index 2 to end
+        document.write(letters);  // Output: ["a", "b"]
+    </script>
+    <br><br>
+
+
+    <h3>✅ 5. Remove Last Element</h3>
+    <script>
+        const items = [1, 2, 3, 4];
+        items.splice(-1, 1);  // remove last element
+        document.write(items);   // Output: [1, 2, 3]
+    </script>
+    <br><br>
+
+
+    <h3>✅ 6. Insert at the End</h3>
+    <script>
+        const list = ["x", "y"];
+        list.splice(list.length, 0, "z");  // insert at end
+        document.write(list);  // Output: ["x", "y", "z"]
+    </script>
+    <br><br>
+
+
+    <h3>✅ 7. Insert at the Beginning</h3>
+    <script>
+        const names = ["John", "Doe"];
+        names.splice(0, 0, "Mr");  // insert at index 0
+        document.write(names);  // Output: ["Mr", "John", "Doe"]
+    </script>
+    <br><br>
+
+
+    <h3>✅ 8. Clear Whole Array Using splice</h3>
+    <script>
+        const data = [1, 2, 3, 4];
+        data.splice(0, data.length);  // remove everything
+        document.write(data);  // Output: []
+    </script>
+    <br><br>
+
+
+
+    <h3>✅ 9. Use Negative Index to Start from End</h3>
+    <script>
+        const points = [10, 20, 30, 40, 50];
+        points.splice(-3, 2);  // start 3 from end, remove 2
+        document.write(points);  // Output: [10, 20, 50]
+    </script>
+
 </body>
+
 </html>
