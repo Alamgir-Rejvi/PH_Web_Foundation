@@ -1,4 +1,4 @@
-// Reverse an Array
+// // Reverse an Array
 
 const numbers = [1,2,3,4,5];
 // for loop with unshift
@@ -7,15 +7,15 @@ for (let i = 0; i < numbers.length;i++){
     reversed.unshift(numbers[i]);
 
 }
-// console.log(reversed);
+console.log(reversed);
 
 
 
 // by reversing initialization
-// for (let i = numbers.length-1; i >= 0; i--){
-//     reversed.push(numbers[i])
-// }
-// console.log(reversed);
+for (let i = numbers.length-1; i >= 0; i--){
+reversed.push(numbers[i])
+ }
+console.log(reversed);
 
 
 // by using for...of loop
@@ -23,3 +23,8 @@ for(const num of numbers){
     reversed.unshift(num);
 }
 console.log(reversed);
+
+
+// // using reverse() method
+let reverseMethod = numbers.reverse();
+console.log(reverseMethod);

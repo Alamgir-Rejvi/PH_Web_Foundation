@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MileStone 5 Task</title>
+  <!-- font awesome cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- tailwind css -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- style.css file  -->
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <!-- for first part -->
+  <div class="parent-container h-[100px] flex justify-between items-center px-5">
+    <!-- left side -->
+    <div class="left-side flex items-center gap-2 hind-madurai">
+      <img src="assets/logo.png" alt="Logo" class="w-[50px] h-[50px]" />
+      <p class="font-bold text-[20px] text-[#006747] ">
+        Emergency <br />
+        Service
+      </p>
+    </div>
+
+    <!-- right side -->
+    <div class="right-side flex gap-4 items-center">
+      <!--  -->
+      <div class="flex items-center justify-center w-[70px] h-[50px] bg-[#41ff6b1a] rounded-[30px] gap-2">
+        <p class="font-bold wishlistCount">0</p>
+        <img src="assets/heart.png" alt="heart" class="w-[20px] h-[20px]" />
+      </div>
+
+      <!-- Coin -->
+      <div class="flex items-center justify-center w-[70px] h-[50px] bg-[#41ff6b1a] rounded-[30px] gap-2">
+        <p class="font-bold coinCount">100</p>
+        <img src="assets/coin.png" alt="coin" class="w-[20px] h-[20px] coin" />
+      </div>
+
+      <!-- Copy -->
+      <div class="copy flex items-center justify-center w-[70px] h-[50px] bg-[#00a63e] rounded-[30px]">
+        <p class="font-bold text-white gap-2"><span class="copyCount">0</span> Copy</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- first part end here -->
+  <!-- for 2nd part -->
+
+  <div class="second-part h-[200px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]">
+    <div class="logo flex items-center justify-center p-3">
+      <img src="assets/logo-dark.png" alt="" class="w-[90px] h-[90px]" />
+    </div>
+    <div class="heading text-center">
+      <p class="font-bold text-2xl text-white hind-madurai">
+        Emergency Service Directory
+      </p>
+    </div>
+    <div class="sub-heading text-center">
+      <p class="font-bold text-white hind-madurai">
+        Government Emergency Services at Your Fingertip - A Project by
+        Government of the People's Republic of Bangladesh
+      </p>
+    </div>
+  </div>
+  <!--second part end here  -->
+  <!--  -->
+
+  <!-- for third part  -->
+  <!-- Full Card Section -->
+  <div class="p-5 body">
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+
+      <!-- Left 3 columns: 3x3 cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 col-span-3">
+
+        <!-- Row 1 -->
+        <div class="title bg-white rounded-xl p-4 h-[300px]">
+          <div class="flex justify-between items-center">
+            <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[12px] flex items-center justify-center">
+              <img src="assets/emergency.png" alt="" class="w-[32px] h-[32px]">
+            </div>
+            <i class="fa-regular wishlist fa-heart text-[#5C5C5C] cursor-pointer text-2xl hover:text-red-500"></i>
+          </div>
+          <div class="mt-3 title">
+            <p class="service-name font-bold text-gray-800">National Emergency Service</p>
+            <p class="text-sm text-gray-500">জাতীয় জরুরি সেবা</p>
+            <p class="service-number font-bold text-xl mb-2 mt-3 ">999</p>
+          </div>
+          <div class="flex items-center justify-center w-[100px] h-[30px] bg-[#f2f2f2] rounded-[30px]">
+            <p class="text-[#5C5C5C]">All</p>
+          </div>
+          <br>
+          <div class="mt-4 flex gap-2">
+            <button
+              class="hover:bg-gray-500 hover:text-white copy flex-1 flex items-center justify-center gap-2 bg-gray-200 text-sm py-2 rounded-lg bg-white border-2 border-gray">
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              class="call flex-1 flex items-center justify-center gap-2 bg-[#00a63e] text-white text-sm py-2 rounded-lg hover:bg-gray-500">
+              <i class="fa-solid fa-phone"></i> Call
+            </button>
+          </div>
+        </div>
+
+        <div class="title bg-white rounded-xl p-4 h-[300px]">
+          <div class="flex justify-between items-center">
+            <div class="bg-[#dfefff] w-[60px] h-[60px] rounded-[12px] flex items-center justify-center">
+              <img src="assets/police.png" alt="" class="w-[32px] h-[32px]">
+            </div>
+            <i class="fa-regular wishlist fa-heart text-[#5C5C5C] cursor-pointer hover:text-red-500 text-2xl"></i>
+          </div>
+          <div class="mt-3 title">
+            <p class="service-name font-bold text-gray-800">Police Emergency Hotline</p>
+            <p class="text-sm text-gray-500">পুলিশ জরুরি হটলাইন</p>
+            <p class="service-number font-bold text-xl mb-2 mt-3">103</p>
+          </div>
+
+          <div class="flex items-center justify-center w-[100px] h-[30px] bg-[#f2f2f2] rounded-[30px]">
+            <p class="text-[#5C5C5C]">Police</p>
+          </div>
+          <br>
+          <div class="mt-4 flex gap-2">
+            <button
+              class="hover:bg-gray-500 hover:text-white copy flex-1 flex items-center justify-center gap-2 bg-gray-200 text-sm py-2 rounded-lg bg-white border-2 border-gray">
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              class="call flex-1 flex items-center justify-center gap-2 bg-[#00a63e] text-white text-sm py-2 rounded-lg hover:bg-gray-500">
+              <i class="fa-solid fa-phone"></i> Call
+            </button>
+          </div>
+        </div>
+
+        <div class="title bg-white rounded-xl p-4 h-[300px]">
+          <div class="flex justify-between items-center">
+            <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[12px] flex items-center justify-center">
+              <img src="assets/fire-service.png" alt="" class="w-[32px] h-[32px]">
+            </div>
+            <i class="fa-regular wishlist fa-heart text-[#5C5C5C] cursor-pointer hover:text-red-500 text-2xl"></i>
+          </div>
+          <div class="mt-3 title">
+            <p class="service-name font-bold text-gray-800">Fire Service</p>
+            <p class="text-sm text-gray-500">ফায়ার সার্ভিস</p>
+            <p class="service-number font-bold text-xl mb-2 mt-3">159</p>
+          </div>
+
+          <div class="flex items-center justify-center w-[100px] h-[30px] bg-[#f2f2f2] rounded-[30px]">
+            <p class="text-[#5C5C5C]">Fire</p>
+          </div>
+          <br>
+          <div class="mt-4 flex gap-2">
+            <button
+              class="hover:bg-gray-500 hover:text-white copy flex-1 flex items-center justify-center gap-2 bg-gray-200 text-sm py-2 rounded-lg bg-white border-2 border-gray">
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              class="call flex-1 flex items-center justify-center gap-2 bg-[#00a63e] text-white text-sm py-2 rounded-lg hover:bg-gray-500">
+              <i class="fa-solid fa-phone"></i> Call
+            </button>
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="title bg-white rounded-xl p-4 h-[300px]">
+          <div class="flex justify-between items-center">
+            <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[12px] flex items-center justify-center">
+              <img src="assets/ambulance.png" alt="" class="w-[32px] h-[32px]">
+            </div>
+            <i class="fa-regular wishlist fa-heart text-[#5C5C5C] cursor-pointer hover:text-red-500 text-2xl"></i>
+          </div>
+          <div class="mt-3 title">
+            <p class="service-name font-bold text-gray-800">Ambulance Service</p>
+            <p class="text-sm text-gray-500">অ্যাম্বুলেন্স সেবা</p>
+            <p class="service-number font-bold text-xl mb-2 mt-3">299</p>
+          </div>
+
+          <div class="flex items-center justify-center w-[100px] h-[30px] bg-[#f2f2f2] rounded-[30px]">
+            <p class="text-[#5C5C5C]">Health</p>
+          </div>
+          <br>
+          <div class="mt-4 flex gap-2">
+            <button
+              class="hover:bg-gray-500 hover:text-white copy flex-1 flex items-center justify-center gap-2 bg-gray-200 text-sm py-2 rounded-lg bg-white border-2 border-gray">
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              class="call flex-1 flex items-center justify-center gap-2 bg-[#00a63e] text-white text-sm py-2 rounded-lg hover:bg-gray-500">
+              <i class="fa-solid fa-phone"></i> Call
+            </button>
+          </div>
+        </div>
+
+        <div class="title bg-white rounded-xl p-4 h-[300px]">
+          <div class="flex justify-between items-center">
+            <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[12px] flex items-center justify-center">
+              <img src="assets/help.png" alt="" class="w-[32px] h-[32px]">
+            </div>
+            <i class="fa-regular wishlist fa-heart text-[#5C5C5C] cursor-pointer hover:text-red-500 text-2xl"></i>
+          </div>
+          <div class="mt-3 title">
+            <p class="service-name font-bold text-gray-800">Women & Child Helpline</p>
+            <p class="text-sm text-gray-500">নারী ও শিশু হেল্পলাইন</p>
+            <p class="service-number font-bold text-xl mb-2 mt-3">109/10921</p>
+          </div>
+
+          <div class="flex items-center justify-center w-[100px] h-[30px] bg-[#f2f2f2] rounded-[30px]">
+            <p class="text-[#5C5C5C]">Help</p>
+          </div>
+          <br>
+          <div class="mt-4 flex gap-2">
+            <button
+              class="hover:bg-gray-500 hover:text-white copy flex-1 flex items-center justify-center gap-2 bg-gray-200 text-sm py-2 rounded-lg bg-white border-2 border-gray">
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              class="call flex-1 flex items-center justify-center gap-2 bg-[#00a63e] text-white text-sm py-2 rounded-lg hover:bg-gray-500">
+              <i class="fa-solid fa-phone"></i> Call
+            </button>
+          </div>
+        </div>
+
+        <div class="title bg-white rounded-xl p-4 h-[300px]">
+          <div class="flex justify-between items-center">
+            <div class="bg-[#dfefff] w-[60px] h-[60px] rounded-[12px] flex items-center justify-center">
+              <img src="assets/no-corruption.png" alt="" class="w-[32px] h-[32px]">
+            </div>
+            <i class="fa-regular wishlist fa-heart text-[#5C5C5C] cursor-pointer hover:text-red-500 text-2xl"></i>
+          </div>
+          <div class="mt-3 title">
+            <p class="service-name font-bold text-gray-800">Anti-Corruption Commission</p>
+            <p class="text-sm text-gray-500">দুর্নীতি দমন কমিশন</p>
+            <p class="service-number font-bold text-xl mb-2 mt-3">100</p>
+          </div>
+
+          <div class="flex items-center justify-center w-[100px] h-[30px] bg-[#f2f2f2] rounded-[30px]">
+            <p class="text-[#5C5C5C]">Govt.</p>
+          </div>
+          <br>
+          <div class="mt-4 flex gap-2">
+            <button
+              class="hover:bg-gray-500 hover:text-white copy flex-1 flex items-center justify-center gap-2 bg-gray-200 text-sm py-2 rounded-lg bg-white border-2 border-gray">
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              class="call flex-1 flex items-center justify-center gap-2 bg-[#00a63e] text-white text-sm py-2 rounded-lg hover:bg-gray-500">
+              <i class="fa-solid fa-phone"></i> Call
+            </button>
+          </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="title bg-white rounded-xl p-4 h-[300px]">
+          <div class="flex justify-between items-center">
+            <div class="bg-[#dfefff] w-[60px] h-[60px] rounded-[12px] flex items-center justify-center">
+              <img src="assets/electrical-energy.png" alt="" class="w-[32px] h-[32px]">
+            </div>
+            <i class="fa-regular wishlist fa-heart text-[#5C5C5C] cursor-pointer hover:text-red-500 text-2xl"></i>
+          </div>
+          <div class="mt-3 title">
+            <p class="service-name font-bold text-gray-800">Electricity Helpline</p>
+            <p class="text-sm text-gray-500">বিদ্যুৎ হেল্পলাইন</p>
+            <p class="service-number font-bold text-xl mb-2 mt-3">16216</p>
+          </div>
+
+          <div class="flex items-center justify-center w-[100px] h-[30px] bg-[#f2f2f2] rounded-[30px]">
+            <p class="text-[#5C5C5C]">Electricity</p>
+          </div>
+          <br>
+          <div class="mt-4 flex gap-2">
+            <button
+              class="hover:bg-gray-500 hover:text-white copy flex-1 flex items-center justify-center gap-2 bg-gray-200 text-sm py-2 rounded-lg bg-white border-2 border-gray">
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              class="call flex-1 flex items-center justify-center gap-2 bg-[#00a63e] text-white text-sm py-2 rounded-lg hover:bg-gray-500">
+              <i class="fa-solid fa-phone"></i> Call
+            </button>
+          </div>
+        </div>
+
+        <div class="title bg-white rounded-xl p-4 h-[300px]">
+          <div class="flex justify-between items-center">
+            <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[12px] flex items-center justify-center">
+              <img src="assets/brac.png" alt="" class="w-[32px] h-[32px]">
+            </div>
+            <i class="fa-regular wishlist fa-heart text-[#5C5C5C] cursor-pointer hover:text-red-500 text-2xl"></i>
+          </div>
+          <div class="mt-3 title">
+            <p class="service-name font-bold text-gray-800">Brac Helpline</p>
+            <p class="text-sm text-gray-500">ব্র্যাক হেল্পলাইন</p>
+            <p class="service-number font-bold text-xl mb-2 mt-3">16222</p>
+          </div>
+
+          <div class="flex items-center justify-center w-[100px] h-[30px] bg-[#f2f2f2] rounded-[30px]">
+            <p class="text-[#5C5C5C]">Brac</p>
+          </div>
+          <br>
+          <div class="mt-4 flex gap-2">
+            <button
+              class="hover:bg-gray-500 hover:text-white copy flex-1 flex items-center justify-center gap-2 bg-gray-200 text-sm py-2 rounded-lg bg-white border-2 border-gray">
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              class="call flex-1 flex items-center justify-center gap-2 bg-[#00a63e] text-white text-sm py-2 rounded-lg hover:bg-gray-500">
+              <i class="fa-solid fa-phone"></i> Call
+            </button>
+          </div>
+        </div>
+
+        <div class="title bg-white rounded-xl p-4 h-[300px]">
+          <div class="flex justify-between items-center">
+            <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[12px] flex items-center justify-center">
+              <img src="assets/train.png" alt="" class="w-[32px] h-[32px]">
+            </div>
+            <i class="fa-regular wishlist fa-heart text-[#5C5C5C] cursor-pointer hover:text-red-500 text-2xl"></i>
+          </div>
+          <div class="mt-3 title">
+            <p class="service-name font-bold text-gray-800">Bangladesh Railway</p>
+            <p class="text-sm text-gray-500">বাংলাদেশ রেলওয়ে</p>
+            <p class="service-number font-bold text-xl mb-2 mt-3">567</p>
+          </div>
+
+          <div class="flex items-center justify-center w-[100px] h-[30px] bg-[#f2f2f2] rounded-[30px]">
+            <p class="text-[#5C5C5C]">Railway</p>
+          </div>
+          <br>
+          <div class="mt-4 flex gap-2">
+            <button
+              class="hover:bg-gray-500 hover:text-white copy flex-1 flex items-center justify-center gap-2 bg-gray-200 text-sm py-2 rounded-lg bg-white border-2 border-gray">
+              <i class="fa-regular fa-copy"></i> Copy
+            </button>
+            <button
+              class="call flex-1 flex items-center justify-center gap-2 bg-[#00a63e] text-white text-sm py-2 rounded-lg  hover:text-white hover:bg-gray-500">
+              <i class="fa-solid fa-phone"></i> Call
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right column spanning 3 rows -->
+      <div class="bg-white rounded-xl p-4 row-span-3 h-[925px] flex flex-col justify-between">
+
+        <!-- Header -->
+        <div class="flex items-center justify-between gap-2 mb-4">
+
+          <span class="font-bold text-gray-800"><i class="fa-solid fa-history text-xl"></i>Call History</span>
+          <div class="flex justify-center items-center">
+            <button
+              class="clearBtn bg-[#00a63e] h-[50px] w-[70px] text-white font-bold text-sm py-2 rounded-[24px] hover:bg-gray-500">
+              Clear
+            </button>
+          </div>
+        </div>
+
+        <!-- Call History List -->
+        <div class="flex-1 overflow-y-auto mb-4">
+          <ul class="callHistroy p-0 space-y-2 list-none">
+            <!-- list will be added by JS here -->
+          </ul>
+        </div>
+
+        <!-- Clear Button -->
+
+
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- script file -->
+  <script src="script.js"></script>
+</body>
+
+</html>
